@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "source": "src/index.html",
-  "homepage": "http://jagadeesh-bariki.github.io/JagaIt",
+  "homepage": "http://BarikiJagadeesh.github.io/JagaIt",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-gh": "react-scripts build --public-url 'http://jagadeesh-bariki.github.io/JagaIt' ",
+    "build-gh": "react-scripts build --public-url 'http://BarikiJagadeesh.github.io/JagaIt' ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
