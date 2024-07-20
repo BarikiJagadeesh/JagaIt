@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/JagaIt/static/css/main.97244b25.css",
+    "main.js": "/JagaIt/static/js/main.6ee8973b.js",
+    "static/js/453.7de84e37.chunk.js": "/JagaIt/static/js/453.7de84e37.chunk.js",
+    "static/media/LogoImg1.png": "/JagaIt/static/media/LogoImg1.042549da3adb8d5118f5.png",
+    "static/media/Mohan.png": "/JagaIt/static/media/Mohan.574d13dd7a4585b11731.png",
+    "static/media/Jagadeesh.png": "/JagaIt/static/media/Jagadeesh.0d92928bcdc47c4df69b.png",
+    "index.html": "/JagaIt/index.html",
+    "main.97244b25.css.map": "/JagaIt/static/css/main.97244b25.css.map",
+    "main.6ee8973b.js.map": "/JagaIt/static/js/main.6ee8973b.js.map",
+    "453.7de84e37.chunk.js.map": "/JagaIt/static/js/453.7de84e37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97244b25.css",
+    "static/js/main.6ee8973b.js"
+  ]
+}
