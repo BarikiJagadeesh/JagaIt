@@ -1,0 +1,33 @@
+[
+    {
+        "Name":"Address",
+        "Value1": "Pedda Harivanam, Adoni, Kurnool, AP - 518308",
+        "Value2":"",
+        "Icon_URL":"https://cdn-icons-png.flaticon.com/128/10205/10205841.png",
+        "alt":"Address Icon"
+    },
+    {
+        "Name":"Phone Number",
+        "Value1": "6300963789",
+        "Value2":"6281966892",
+        "Icon_URL":"https://cdn-icons-png.flaticon.com/128/597/597177.png",
+        "alt":"Phone Icon",
+        "href": "https://wa.me/916300963789"
+    },
+    {
+        "Name": "Email",
+        "Value1": "vyomanautjagadeesh@gmail.com",
+        "Icon_URL":"https://cdn-icons-png.flaticon.com/128/542/542689.png",
+        "alt":"Email Icon",
+        "href":"mailto:vyomanautjagadeesh@gmail.com"
+    },
+    {
+        "Name":"Location",
+        "Icon_URL":"https://cdn-icons-png.flaticon.com/128/535/535188.png",
+        "alt":"Location Icon",
+        "href":"https://maps.app.goo.gl/B7FNNtosuWTHvDXv5"
+
+    }
+    
+
+]

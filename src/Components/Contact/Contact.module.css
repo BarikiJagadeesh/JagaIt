@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+.contactContainer{
+    text-align: center;
+}
+
+.ContactHeading{
+    font-size: 30px;
+    background-color: #87cefa;
+    padding: 5px 5px 5px 25px;
+    font-weight: bold;
+    font-family: Baskervville;
+    text-align: left;
+}
+
+.contactBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conIcon{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.contactBody ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.contactBody ul li{
+    margin-bottom: 10px;
+}

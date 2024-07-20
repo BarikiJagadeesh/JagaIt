@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+.HeaderContainer{
+    text-align: center;
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding:10px 0px 10px 10px;
+    cursor: pointer;
+   
+}
+.logoImg{
+    width: 80px;
+    border-radius: 50%;
+    margin-right:20px;
+}
+
+.logoText{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family:Bono Novo;
+}
+
+@media (min-width:250px) and (max-width:550px) {
+   .HeaderContainer{
+    position: relative;
+    display: block;
+   }
+}

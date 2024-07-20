@@ -1,0 +1,18 @@
+[
+    {
+        "MItem":"Home",
+        "link":"/home"
+    },
+    {
+        "MItem":"About",
+        "link":"/about"
+    },
+    {
+        "MItem":"Gallary",
+        "link":"/gallary"
+    },
+    {
+        "MItem":"Contact",
+        "link":"/contact"
+    }
+]

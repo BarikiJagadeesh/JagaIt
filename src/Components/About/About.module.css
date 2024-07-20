@@ -1,0 +1,62 @@
+.AboutContainer{
+    margin: 20px;
+    line-height: 2rem;
+}
+
+.PhotoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.profileContainer{
+    background-color: rgb(241, 95, 149);
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.profilephoto{
+    background-color: lightblue;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.profileName{
+    font-size: 25px;
+    margin:0px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(17, 15, 15);
+
+}
+
+.profileDesig{
+    margin: 0px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px white;
+}
+
+
+@media (min-width:250px) and (max-width:550px) {
+    .profilephoto{
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+        border-radius: 5px;
+    }
+
+    .profileName{
+        font-size:18px;
+    }
+    .profileDesig{
+        font-size: 15px;
+    }
+    .profileContainer{
+        border-radius: 25px;
+    }
+}
+
