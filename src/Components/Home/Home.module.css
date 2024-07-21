@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
 
 .HomeContainer{
    margin-top: 110px;
@@ -7,13 +8,30 @@
    
 }
 
+.GetButton{
+   background-color: orange;
+   color: white;
+   text-decoration: none;
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid black;
+   font-family: Kalnia;
+}
+
+.GetButton:hover{
+   transform: scale(1.2);
+   box-shadow: 2px 4px 4px black, -2px -2px 4px black;
+   transition: 0.5s;
+}
+
 .HomeHeading{
    font-size: 25px;
+   margin: 0px;
    font-weight: bold;
    background-color: lightskyblue;
    padding: 10px;
    font-family: Baskervville;
-   animation: slideInFromLeft 1s ease-in-out;
+   animation: slideInFromLeft 1s ease;
 
 }
 
@@ -22,7 +40,9 @@ h3{
 }
 
 .subHeading{
-   animation: slideInFromLeft 1s ease-out;
+   animation: slideInFromLeft 1s ease;
+   font-size: 35px;
+   font-family: Kalnia;
 }
 .HomePhotos{
    background-color: lightpink;
@@ -30,7 +50,7 @@ h3{
    border: 1px solid black;
    padding: 15px;
    border-radius: 10px;
-   animation: slideInFromLeft 1s ease-out;
+   animation: slideInFromLeft 1s ease;
 }
 
 .JagaPhoto{
@@ -55,6 +75,28 @@ h3{
    
 }
 
+.HomeTextData{
+  text-align: center;
+  width: 50%;
+  animation: slideInFromLeft 1s ease;
+}
+.HomeDataContainer{
+   display: flex;
+   background-color: lightblue;
+   justify-content: space-between;
+   align-items: center;
+   animation: slideInFromLeft 1s ease;
+   
+}
+.HomeImageContainer{
+   width: 50%;
+   background-color: rgb(156, 177, 190);
+   border-radius: 250px 0px 0px 250px;
+   animation: slideInFromLeft 1s ease;
+
+}
+
+
 
 @keyframes slideInFromLeft {
    from {
@@ -69,7 +111,7 @@ h3{
 
  @media (min-width:250px) and (max-width:550px) {
    .HomeContainer{
-      margin-top: 0px;
+      margin-top: 180px;
    }
    .HomeHeading{
       margin-top: 0px;
@@ -78,5 +120,18 @@ h3{
    .JagaPhoto{
       width: 200px;
       height: 200px;
+   }
+
+   .HomeDataContainer{
+      flex-wrap: wrap;
+   }
+   .HomeTextData{
+      width: 100%;
+   }
+   .HomeImageContainer{
+      width: 100%;
+   }
+   .HomeImageContainer img{
+      width: 80%;
    }
  }
