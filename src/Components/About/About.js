@@ -6,7 +6,7 @@ import Jaga from '../../Assets/Jagadeesh.png'
 
 const About = () => {
   return (
-    <div className={styles.AboutContainer}>
+    <div className={styles.AboutContainer} id='About'>
       <ul>
         <li>
             <h3>Our Aim</h3>

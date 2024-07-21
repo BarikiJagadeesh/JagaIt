@@ -5,7 +5,7 @@ import contactData from "../../Assets/Contacts.json";
 const Contact = () => {
     
   return (
-    <div className={styles.contactContainer}>
+    <div className={styles.contactContainer  }  id='ContactUs'>
       <p className={styles.ContactHeading}>Contact Us</p>
 
       <div className={styles.contactBody}>

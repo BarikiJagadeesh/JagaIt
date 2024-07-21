@@ -1,3 +1,7 @@
+.MenuContainer{
+    
+}
+
 .MenuContainer ul{
     list-style: none;
     display: inline-block;
@@ -11,4 +15,16 @@
     cursor: pointer;
     font-weight: 500;
     
+    
+}
+
+.MenuContainer ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.MenuContainer ul li a:hover{
+    color: floralwhite;
+    font-weight: bolder;
 }

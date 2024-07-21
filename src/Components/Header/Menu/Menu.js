@@ -8,7 +8,7 @@ const Menu = () => {
       <ul>
         {
             MenuData.map((obj, ind)=>{
-                return <li key={ind}>{obj.MItem}</li>
+                return <li key={ind}><a href={obj.link}>{obj.MItem}</a></li>
             })
         }
       </ul>
