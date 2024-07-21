@@ -12,7 +12,7 @@ const Home = () => {
         
           <p className={styles.subHeading}> <br/>Transforming Your Online Presence with Custom, Professional Web Design</p>
 
-          <a href='https://wa.me/916300963789' className={styles.GetButton} target='_blank' rel="noreferrer">Get Started </a>
+          <a href='https://wa.me/916300963789?text=Hello%2C%20I%20am%20interested%20in%20your%20services%21' className={styles.GetButton} target='_blank' rel="noreferrer">Get Started </a>
          
           </div>
         <div className={styles.HomeImageContainer}>
