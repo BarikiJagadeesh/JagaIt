@@ -127,6 +127,7 @@ h3{
 
    .HomeDataContainer{
       flex-wrap: wrap;
+      height:100vh ;
    }
    .HomeTextData{
       width: 100%;
