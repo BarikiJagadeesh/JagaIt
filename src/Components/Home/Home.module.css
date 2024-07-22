@@ -6,6 +6,7 @@
    margin-top: 110px;
    text-align: center;
    
+   
 }
 
 .GetButton{
@@ -86,6 +87,7 @@ h3{
    justify-content: space-between;
    align-items: center;
    animation: slideInFromLeft 1s ease;
+   height: 80vh;
    
 }
 .HomeImageContainer{
@@ -93,6 +95,7 @@ h3{
    background-color: rgb(156, 177, 190);
    border-radius: 250px 0px 0px 250px;
    animation: slideInFromLeft 1s ease;
+   
 
 }
 
