@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Works from './Components/OurWorks/Works';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Home/>
         <About/>
         <Contact/>
+        <Works/>
         <Footer/>
     </div>
    </Router>

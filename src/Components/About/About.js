@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './About.module.css';
 import Mohan from '../../Assets/Mohan.png';
-import Jaga from '../../Assets/Jagadeesh.png'
+import Jaga from '../../Assets/Jagadeesh.png';
+import Hareesh from '../../Assets/HareeshPic.png'
 
 
 const About = () => {
@@ -36,9 +37,8 @@ const About = () => {
                 </ul>
             </div>
         </div>
-      <ul>
-        <li>
-            <h3>Our Team:</h3>
+        <div>
+            <p className={styles.SectionHeading}>Our Team</p>
             <div className={styles.PhotoContainer}>
                 <div className={styles.profileContainer}>
                     <img src={Mohan} className={styles.profilephoto} alt='Profile-Photo'/>
@@ -50,9 +50,14 @@ const About = () => {
                     <p className={styles.profileName}>B Jagadeesh</p>
                     <p className={styles.profileDesig}><i>Full Stack Developer</i></p>
                 </div>
+                <div className={styles.profileContainer}>
+                    <img src={Hareesh} className={styles.profilephoto} alt='Profile-Photo'/>
+                    <p className={styles.profileName}>M Hareesh</p>
+                    <p className={styles.profileDesig}><i>FontEnd Developer</i></p>
+                </div>
+                
             </div>
-        </li>
-      </ul>
+        </div>
     </div>
   )
 }

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+.WorksContainer{
+    margin-top: 50px;
+}
+.WorksHeading{
+    text-align: center;
+    font-family:  "Ga Maamli", sans-serif;
+}
