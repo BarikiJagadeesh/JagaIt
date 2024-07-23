@@ -56,5 +56,13 @@
     }
     .contactBody{
         flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .contactBody ul{
+        padding: 3px;
+    }
+    .contactDetails{
+        
+        padding:0px;
     }
 }

@@ -4,7 +4,7 @@ import Evm from '../../Assets/EVM.png'
 
 const Works = () => {
   return (
-    <div className={styles.WorksContainer} id='Gallary'>
+    <div className={styles.WorksContainer} id='Works'>
       <div className={styles.WorksHeading}>
         <p>Our Works</p>
       </div>
