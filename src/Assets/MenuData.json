@@ -8,11 +8,11 @@
         "link":"#About"
     },
     {
-        "MItem":"Gallary",
-        "link":"#Gallary"
-    },
-    {
         "MItem":"Contact",
         "link":"#ContactUs"
+    },
+    {
+        "MItem":"Works",
+        "link":"#Gallary"
     }
 ]

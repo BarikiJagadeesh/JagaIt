@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
 .contactContainer{
     text-align: center;
+    background-image: url('https://e0.pxfuel.com/wallpapers/617/1001/desktop-wallpaper-office-work.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 }
 
 .ContactHeading{
-    font-size: 30px;
-    background-color: #87cefa;
+    font-size: 25px;
     padding: 5px 5px 5px 25px;
     font-weight: bold;
-    font-family: Baskervville;
-    text-align: left;
+    font-family:'Ga Maamli';
+    text-align: center;
 }
 
 .contactBody{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 .conIcon{
     height: 20px;
@@ -30,4 +36,11 @@
 
 .contactBody ul li{
     margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width:250px) and (max-width:550px){
+    .contactContainer{
+        background-image: none;
+    }
 }

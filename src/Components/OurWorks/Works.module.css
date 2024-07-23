@@ -57,7 +57,7 @@
 
 
 @media (min-width:250px) and (max-width:550px) {
-    .WorkData{
-        flex-wrap: wrap;
-    }
+   .WorksDataContainer{
+        width: 100%;
+   }
 }
