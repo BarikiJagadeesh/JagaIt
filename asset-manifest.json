@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JagaIt/static/css/main.fb4b0121.css",
-    "main.js": "/JagaIt/static/js/main.251bbd20.js",
+    "main.css": "/JagaIt/static/css/main.a8930c9d.css",
+    "main.js": "/JagaIt/static/js/main.04c3074b.js",
     "static/js/453.7de84e37.chunk.js": "/JagaIt/static/js/453.7de84e37.chunk.js",
     "static/media/LogoImg1.png": "/JagaIt/static/media/LogoImg1.042549da3adb8d5118f5.png",
     "static/media/Mohan.png": "/JagaIt/static/media/Mohan.574d13dd7a4585b11731.png",
@@ -10,12 +10,12 @@
     "static/media/EVM.png": "/JagaIt/static/media/EVM.15d1c6090bb61242bde4.png",
     "static/media/Jagadeesh.png": "/JagaIt/static/media/Jagadeesh.0d92928bcdc47c4df69b.png",
     "index.html": "/JagaIt/index.html",
-    "main.fb4b0121.css.map": "/JagaIt/static/css/main.fb4b0121.css.map",
-    "main.251bbd20.js.map": "/JagaIt/static/js/main.251bbd20.js.map",
+    "main.a8930c9d.css.map": "/JagaIt/static/css/main.a8930c9d.css.map",
+    "main.04c3074b.js.map": "/JagaIt/static/js/main.04c3074b.js.map",
     "453.7de84e37.chunk.js.map": "/JagaIt/static/js/453.7de84e37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb4b0121.css",
-    "static/js/main.251bbd20.js"
+    "static/css/main.a8930c9d.css",
+    "static/js/main.04c3074b.js"
   ]
 }
