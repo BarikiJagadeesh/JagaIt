@@ -17,6 +17,7 @@
     padding: 5px;
     width: 45%;
     border-radius: 10px;
+
 }
 
 .WorkHeading{
@@ -50,14 +51,26 @@
     width: 90%;
 }
 .WorkImg img{
-   
-    
     width: 100%;
 }
 
+.Container{
+    display: flex;
+    justify-content: space-around;
+}
 
-@media (min-width:250px) and (max-width:550px) {
+
+@media (min-width:250px) and (max-width:760px) {
    .WorksDataContainer{
         width: 100%;
+   }
+   .Container{
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+   .WorksDataContainer{
+    margin-top: 20px;
    }
 }

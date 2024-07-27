@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './About.module.css';
 import Mohan from '../../Assets/Mohan.png';
 import Jaga from '../../Assets/Jagadeesh.png';
-import Hareesh from '../../Assets/HareeshPic.png'
+import Hareesh from '../../Assets/HareeshPic.png';
 
 
 const About = () => {
