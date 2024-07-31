@@ -9,6 +9,12 @@
     
 }
 
+.Animated_section{
+    opacity: 0;
+    transition: opacity 0.7s ease, transform 0.7s ease-out;
+    
+}
+
 .ContactHeading{
     font-size: 25px;
     padding: 5px 5px 5px 25px;
@@ -64,5 +70,8 @@
     .contactDetails{
         
         padding:0px;
+    }
+    .ContactForm{
+        margin-top: 20px;
     }
 }
