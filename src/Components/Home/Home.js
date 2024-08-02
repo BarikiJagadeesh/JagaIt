@@ -4,6 +4,7 @@ import styles from './Home.module.css';
 import ShopKeeper from '../../Assets/HomeBackground.png'
 
 const Home = () => {
+  console.log("Home component rendered")
   return (
     <div className={styles.HomeContainer} id='Home'>
       <p className={styles.HomeHeading}>Professional Website Design for Your Business </p>
